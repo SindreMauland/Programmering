@@ -7,3 +7,4 @@ for i in range(antall):
     t.forward(a)
     t.right(90)
     a+=5
+turtle.done()
