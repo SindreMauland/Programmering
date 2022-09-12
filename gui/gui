@@ -23,7 +23,8 @@ def update():
 def update1():
     global a
     a+=1
-    mylabel.set(a, "km/t")
+    x=str(a)+string
+    mylabel.set(x)
     master.after(MS_DELAY, update)
  
 
