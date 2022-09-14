@@ -58,5 +58,4 @@ lbl = Label(master, textvariable=mylabel)
 lbl.pack(pady=10)
 remove_master()
 root.after(MS_DELAY, update)
-
 mainloop()
